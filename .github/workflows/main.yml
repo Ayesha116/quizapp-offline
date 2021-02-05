@@ -39,7 +39,7 @@ jobs:
       run: yarn build
       
     - name: make executab
-      run: chmod +x ./home/runner/work/quizapp-offline/quizapp-offline/node_modules/.cache
+      run: chmod +x /home/runner/work/quizapp-offline/quizapp-offline/node_modules/.cache
       
     - name: installing Surge
       run: npm install -g surge

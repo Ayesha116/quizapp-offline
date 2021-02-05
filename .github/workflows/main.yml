@@ -25,6 +25,8 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: 12
+        name: permission change
+        run: chmod +x ./home/runner/work/quizapp-offline/quizapp-offline/node_modules/.cache
       
       
     - name: GitHub action to install yarn

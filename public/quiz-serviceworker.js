@@ -4,7 +4,7 @@ const filestocache = [
     'https://opentdb.com/api.php?amount=10&category=17&difficulty=easy&type=multiple',
 
 ]
-// const self = this
+const self = this
 self.addEventListener('activate' , ()=>{
     console.log('service worker activate')
 })
